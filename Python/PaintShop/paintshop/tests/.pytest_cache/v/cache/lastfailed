@@ -1,0 +1,8 @@
+{
+  "TestPaintshop.py::test_all": true,
+  "TestPaintshop.py::tests_run_all": true,
+  "test.py": true,
+  "test.py::Test::()::test_input": true,
+  "test.py::test": true,
+  "test.py::test_no_solution": true
+}
