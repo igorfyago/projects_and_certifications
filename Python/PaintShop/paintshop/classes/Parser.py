@@ -1,13 +1,8 @@
 from collections import namedtuple
 
-
-def formatted(line): return line.rstrip('\n').replace(' ', '').replace('\t', '').strip()
-
-
-def combine_every_n(line, n): return (line[i:i + n] for i in range(0, len(line), n))
-
-
-def preferences(line): return dict(((int(string[0]), str(string[1])) for string in combine_every_n(line, 2)))
+trim = lambda line: line.rstrip('\n').replace(' ', '').replace('\t', '').strip()
+combine_every_n = lambda line, n: (line[i:i + n] for i in range(0, len(line), n))
+preferences = lambda line: dict(((int(string[0]), str(string[1])) for string in combine_every_n(line, 2)))
 
 
 class Parser:
@@ -15,7 +10,7 @@ class Parser:
     def __init__(self, path):
         self.path = str(path)
 
-        self.input_lines = [formatted(line) for line in open(self.path, 'r').read().splitlines() if len(formatted(line)) > 0]
+        self.input_lines = [trim(line) for line in open(self.path, 'r').read().splitlines() if len(trim(line)) > 0]
 
         self.styles_solution = {k: 'G' for k, v in ((color_i + 1, 'G') for color_i in range(int(self.input_lines[0])))}
 

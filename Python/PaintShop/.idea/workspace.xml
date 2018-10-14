@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14053ccd-ba99-479b-a8d5-762f1f927546" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paintshop/PaintShop.py" beforeDir="false" afterPath="$PROJECT_DIR$/paintshop/PaintShop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paintshop/classes/Parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/paintshop/classes/Parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paintshop/classes/Solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/paintshop/classes/Solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paintshop/tests/TestPaintshop.py" beforeDir="false" afterPath="$PROJECT_DIR$/paintshop/tests/TestPaintshop.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,25 +48,25 @@
           <entry key="Python Console" value="5" />
           <entry key="dummy" value="46" />
           <entry key="input_99" value="28" />
-          <entry key="py" value="3487" />
+          <entry key="py" value="3614" />
           <entry key="txt" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="134" />
-          <entry key="Python" value="3492" />
+          <entry key="Python" value="3619" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paintshop/PaintShop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="320">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -75,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paintshop/classes/Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paintshop/classes/Solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="75" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="75" />
+            <state relative-caret-position="303">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -139,10 +138,10 @@
         <option value="$PROJECT_DIR$/paintshop/dev/test1.py" />
         <option value="$PROJECT_DIR$/paintshop/dev/codedev.py" />
         <option value="$PROJECT_DIR$/paintshop/tests/input_messy_formatting.txt" />
-        <option value="$PROJECT_DIR$/paintshop/PaintShop.py" />
         <option value="$PROJECT_DIR$/paintshop/classes/Solver.py" />
         <option value="$PROJECT_DIR$/paintshop/tests/TestPaintshop.py" />
         <option value="$PROJECT_DIR$/paintshop/classes/Parser.py" />
+        <option value="$PROJECT_DIR$/paintshop/PaintShop.py" />
       </list>
     </option>
   </component>
@@ -409,12 +408,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 27m 51s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 36m 14s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 37m 30s.xml">
       <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
     </history-entry>
@@ -439,6 +432,12 @@
     <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 47m 08s.xml">
       <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 58m 37s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 22h 10m 04s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -450,7 +449,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.21877065" />
@@ -579,27 +578,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/PaintShop.py">
+    <entry file="file://$PROJECT_DIR$/paintshop/classes/Parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paintshop/classes/Solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="75" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="75" />
+        <state relative-caret-position="303">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/classes/Parser.py">
+    <entry file="file://$PROJECT_DIR$/paintshop/PaintShop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="320">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
