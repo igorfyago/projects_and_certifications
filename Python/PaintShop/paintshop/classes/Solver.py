@@ -3,16 +3,15 @@ NO_SOLUTION = "No solution exists"
 
 class Solver:
 
-    def __init__(self, parser, customers):
+    def __init__(self, parser):
         self.parser = parser
-        self.customers = customers
+        self.customers = self.parser.customers
 
     def solve(self):
 
         def cust_validate(cust):
             for color, pref_style in cust.cust_prefs.items():
                 if self.parser.styles_solution[color] == pref_style:
-                    cust.cust_satisfied = True
                     return True, None, None
             return False, color, pref_style
 

@@ -2,7 +2,6 @@ import pathlib
 import sys
 
 from paintshop.classes.Parser import Parser
-from paintshop.classes.Parser import Customer
 from paintshop.classes.Solver import Solver
 
 input_paths = [
@@ -16,11 +15,9 @@ input_paths = [
 def main():
     path = pathlib.Path(pathlib.Path(__file__).parent / "tests" / input_paths[2])
     # path = sys.argv[1]
-    Parser(path)
-    #solution = Solver(Parser(path), Customer).solve()
-    #print(solution)
+    solution = Solver(Parser(path)).solve()
+    print(solution)
 
 
 if __name__ == '__main__':
-    # print("__name__ == '__main__'")
     main()

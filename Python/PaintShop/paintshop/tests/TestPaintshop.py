@@ -1,7 +1,6 @@
 import pathlib
 
 from paintshop.classes.Parser import Parser
-from paintshop.classes.Parser import Customer
 from paintshop.classes.Solver import Solver
 
 current_dir = pathlib.Path(__file__).parent
@@ -45,7 +44,7 @@ def _test(n):
     input_path = pathlib.Path(current_dir / input_paths[n])
     expected_path = pathlib.Path(current_dir / expected_paths[n])
 
-    solution = Solver(Parser(input_path), Customer).solve()
+    solution = Solver(Parser(input_path)).solve()
     expected = Solver.to_string([line for line in open(str(expected_path), "r").read().splitlines()])
 
     assert solution == expected, "Test failed"
