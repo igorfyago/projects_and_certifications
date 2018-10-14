@@ -6,18 +6,18 @@ from paintshop.classes.Solver import Solver
 current_dir = pathlib.Path(__file__).parent
 
 input_paths = [
-    "input_0.txt",
-    "input_1.txt",
-    "input_2.txt",
-    "input_3.txt",
-    "input_messy_formatting.txt"]
+    'input_0.txt',
+    'input_1.txt',
+    'input_2.txt',
+    'input_3.txt',
+    'input_messy_formatting.txt']
 
 expected_paths = [
-    "expected_0.txt",
-    "expected_1.txt",
-    "expected_2.txt",
-    "expected_3.txt",
-    "expected_messy_formatting.txt"]
+    'expected_0.txt',
+    'expected_1.txt',
+    'expected_2.txt',
+    'expected_3.txt',
+    'expected_messy_formatting.txt']
 
 
 def test_0():
@@ -45,7 +45,7 @@ def _test(n):
     expected_path = pathlib.Path(current_dir / expected_paths[n])
 
     solution = Solver(Parser(input_path)).solve()
-    expected = Solver.to_string([line for line in open(str(expected_path), "r").read().splitlines()])
+    expected = Solver.to_string([line for line in open(str(expected_path), 'r').read().splitlines()])
 
-    assert solution == expected, "Test failed"
-    print("Solution:", solution, "Expected:", expected)
+    assert solution == expected, 'Test failed'
+    print('Solution:', solution, 'Expected:', expected)
