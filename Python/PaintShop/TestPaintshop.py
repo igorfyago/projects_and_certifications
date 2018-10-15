@@ -1,9 +1,9 @@
 import pathlib
 
-from paintshop.classes.Parser import Parser
-from paintshop.classes.Solver import Solver
+from src.Parser import Parser
+from src.Solver import Solver
 
-current_dir = pathlib.Path(__file__).parent
+current_dir = pathlib.Path(pathlib.Path(__file__).parent / 'test' )
 
 input_paths = [
     'input_0.txt',
@@ -47,5 +47,13 @@ def _test(n):
     solution = Solver(Parser(input_path)).solve()
     expected = Solver.to_string([line for line in open(str(expected_path), 'r').read().splitlines()])
 
-    assert solution == expected, 'Test failed'
-    print('Solution:', solution, 'Expected:', expected)
+    assert solution == expected, 'Failed test_'+str(n)+' -> '+'Expected:'+expected+' != '+'Actual:'+solution
+    print('Passed test_' + str(n) + ' -> '+'Expected:'+expected+' == '+'Actual:'+solution)
+
+
+if __name__ == '__main__':
+    test_0()
+    test_1()
+    test_2()
+    test_3()
+    test_4()

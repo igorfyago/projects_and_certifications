@@ -2,7 +2,7 @@ from collections import namedtuple
 
 trim = lambda line: line.rstrip('\n').replace(' ', '').replace('\t', '').strip()
 combine_every_n = lambda line, n: (line[i:i + n] for i in range(0, len(line), n))
-preferences = lambda line: dict(((int(string[0]), str(string[1])) for string in combine_every_n(line, 2)))
+preferences = lambda line: dict((int(string[0]), str(string[1])) for string in combine_every_n(line, 2))
 
 
 class Parser:
@@ -17,5 +17,5 @@ class Parser:
         self.Customers = namedtuple('Customers', ['id', 'preferences', 'preferences_count'])
 
         self.customers = sorted(
-            [self.Customers(row, preferences(line), len(preferences(line))) for row, line in enumerate(self.input_lines[1:])]
+            [self.Customers(id=row, preferences=preferences(line), preferences_count=len(preferences(line))) for row, line in enumerate(self.input_lines[1:])]
             , key=lambda customer: customer.preferences_count)

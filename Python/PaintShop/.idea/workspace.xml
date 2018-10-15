@@ -7,10 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14053ccd-ba99-479b-a8d5-762f1f927546" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paintshop/PaintShop.py" beforeDir="false" afterPath="$PROJECT_DIR$/paintshop/PaintShop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paintshop/classes/Parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/paintshop/classes/Parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/PaintShop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/classes/Parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/classes/Solver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/classes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/dev/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/dev/codedev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/.pytest_cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/TestPaintshop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/expected_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/expected_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/expected_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/expected_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/expected_messy_formatting.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/input_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/input_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/input_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/input_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintshop/tests/input_messy_formatting.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,61 +52,55 @@
         <counts>
           <entry key="input_01" value="1" />
           <entry key="input_99" value="2" />
-          <entry key="py" value="71" />
-          <entry key="txt" value="17" />
+          <entry key="py" value="103" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="71" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="5" />
-          <entry key="dummy" value="46" />
+          <entry key="dummy" value="47" />
           <entry key="input_99" value="28" />
-          <entry key="py" value="3614" />
+          <entry key="py" value="3997" />
           <entry key="txt" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="134" />
-          <entry key="Python" value="3619" />
+          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="Python" value="4002" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/paintshop/PaintShop.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Paintshop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="167">
+              <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="26" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#17#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paintshop/classes/Parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paintshop/classes/Solver.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestPaintshop.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +126,9 @@
     <replaceStrings>
       <replace>'</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -133,7 +149,6 @@
         <option value="$PROJECT_DIR$/paintshop/tests/test.py" />
         <option value="$PROJECT_DIR$/paintshop/Paintshop.py" />
         <option value="$PROJECT_DIR$/paintshop/PaintShop1.py" />
-        <option value="$PROJECT_DIR$/paintshop/classes/PaintShop.py" />
         <option value="$PROJECT_DIR$/paintshop/tests/expected_messy_formatting.txt" />
         <option value="$PROJECT_DIR$/paintshop/dev/test1.py" />
         <option value="$PROJECT_DIR$/paintshop/dev/codedev.py" />
@@ -142,6 +157,13 @@
         <option value="$PROJECT_DIR$/paintshop/tests/TestPaintshop.py" />
         <option value="$PROJECT_DIR$/paintshop/classes/Parser.py" />
         <option value="$PROJECT_DIR$/paintshop/PaintShop.py" />
+        <option value="$PROJECT_DIR$/paintshop/classes/PaintShop.py" />
+        <option value="$PROJECT_DIR$/classes/PaintShop.py" />
+        <option value="$PROJECT_DIR$/src/PaintShop.py" />
+        <option value="$PROJECT_DIR$/src/Parser.py" />
+        <option value="$PROJECT_DIR$/src/Paintshop.py" />
+        <option value="$PROJECT_DIR$/Paintshop.py" />
+        <option value="$PROJECT_DIR$/TestPaintshop.py" />
       </list>
     </option>
   </component>
@@ -184,25 +206,12 @@
             <path>
               <item name="PaintShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="PaintShop" type="462c0819:PsiDirectoryNode" />
-              <item name="paintshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PaintShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="PaintShop" type="462c0819:PsiDirectoryNode" />
-              <item name="paintshop" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PaintShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PaintShop" type="462c0819:PsiDirectoryNode" />
-              <item name="paintshop" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PaintShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PaintShop" type="462c0819:PsiDirectoryNode" />
-              <item name="paintshop" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,7 +221,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../paintshop-project" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -222,13 +231,15 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop" />
-      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop\class" />
-      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop\classes" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop" />
+      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\test" />
+      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop\classes" />
+      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop" />
+      <recent name="D:\GitHub\projects_and_certifications\Python\PaintShop\paintshop\class" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,8 +254,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in TestPaintshop.py">
-    <configuration name="PaintShop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Paintshop">
+    <configuration name="Paintshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PaintShop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,104 +263,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paintshop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paintshop/PaintShop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Paintshop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Paintshop" type="PythonConfigurationType" factoryName="Python">
-      <module name="PaintShop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paintshop" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paintshop/Paintshop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="codedev" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PaintShop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paintshop/dev" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paintshop/dev/codedev.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for TestPaintshop.test_0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PaintShop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paintshop/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestPaintshop.test_0&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for TestPaintshop.test_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PaintShop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paintshop/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestPaintshop.test_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for TestPaintshop.test_4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PaintShop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paintshop/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestPaintshop.test_4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in TestPaintshop.py" type="tests" factoryName="py.test" nameIsGenerated="true">
@@ -357,32 +281,23 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paintshop/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/paintshop/tests/TestPaintshop.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestPaintshop.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Paintshop" />
       <item itemvalue="Python tests.pytest in TestPaintshop.py" />
-      <item itemvalue="Python tests.pytest for TestPaintshop.test_0" />
-      <item itemvalue="Python tests.pytest for TestPaintshop.test_1" />
-      <item itemvalue="Python tests.pytest for TestPaintshop.test_4" />
-      <item itemvalue="Python.PaintShop" />
-      <item itemvalue="Python.codedev" />
+      <item itemvalue="Python.Paintshop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PaintShop" />
-        <item itemvalue="Python tests.pytest for TestPaintshop.test_0" />
-        <item itemvalue="Python.codedev" />
-        <item itemvalue="Python tests.pytest for TestPaintshop.test_4" />
-        <item itemvalue="Python tests.pytest for TestPaintshop.test_1" />
+        <item itemvalue="Python.Paintshop" />
       </list>
     </recent_temporary>
   </component>
@@ -408,34 +323,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 37m 30s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 38m 12s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 40m 47s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 41m 54s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 44m 44s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 44m 53s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 46m 51s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 47m 08s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 21h 58m 37s.xml">
-      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_TestPaintshop_py - 2018.10.14 at 22h 10m 04s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 02h 38m 46s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 09h 12m 35s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 14h 19m 26s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 14h 41m 19s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 14h 44m 21s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 14h 45m 15s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 14h 46m 53s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 14h 59m 25s.xml">
+      <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_TestPaintshop_py - 2018.10.15 at 15h 01m 34s.xml">
       <configuration name="pytest in TestPaintshop.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -498,104 +413,97 @@
     <option name="LAST_COMMIT_MESSAGE" value="paintshop_01" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paintshop/classes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/paintshop/dir/c1.py" />
     <entry file="file://$PROJECT_DIR$/paintshop/tests/input_01" />
     <entry file="file://$PROJECT_DIR$/paintshop/tests/input_99" />
     <entry file="file://$PROJECT_DIR$/paintshop/classes/Customer.py" />
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/input_1.txt">
+    <entry file="file://$PROJECT_DIR$/test/input_3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/input_2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/input_3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/input_0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/expected_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/expected_0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/PaintShop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/input_messy_formatting.txt">
+    <entry file="file://$PROJECT_DIR$/paintshop/tests/input.txt" />
+    <entry file="file://$PROJECT_DIR$/test/input_messy_formatting.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/expected_messy_formatting.txt">
+    <entry file="file://$PROJECT_DIR$/test/expected_messy_formatting.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/dev/codedev.py">
+    <entry file="file://$PROJECT_DIR$/dev/codedev.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/tests/TestPaintshop.py">
+    <entry file="file://$PROJECT_DIR$/dev/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/input_0.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/input_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/input_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/expected_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/expected_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/expected_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/expected_3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Paintshop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="26" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#17#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/classes/Parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/classes/Solver.py">
+    <entry file="file://$PROJECT_DIR$/TestPaintshop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintshop/PaintShop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
